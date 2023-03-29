@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "type",
+    "destination"
+  ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "pattern": "(product)",
+      "description": "Type of object, must match product"
+    },
+    "destination": {
+      "type": "string",
+      "pattern": "(sap)",
+      "description": "Destination of the object, must match sap"
+    }
+  }
+}
